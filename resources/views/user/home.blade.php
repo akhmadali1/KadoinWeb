@@ -53,7 +53,7 @@
               <a href="#"><img height="250" width="150" src="/productimage/{{$product->image}}" alt=""></a>
               <div class="down-content">
                 <a href="#"><h4>{{$product->title}}</h4></a>
-                <h6>${{$product->price}}</h6>
+                <h6>Rp. {{$product->price}}</h6>
                 <p>{{$product->description}}</p>
 
                 <form action="{{url('addcart',$product->id)}}" method="POST">
